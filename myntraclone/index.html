@@ -1,121 +1,245 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Easy Shop - Myntra Clone</title>
+    <title>Myntra | The Fashion Edit</title>
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
 
-    <!-- Header -->
-<div class="header">
-    <h1>MYNTRA</h1>
-    <p>Fashion, Lifestyle and Beauty</p>
-</div>
-
-    <!-- Navigation Bar -->
-    <div class="navbar">
-        <a href="#home">HOME</a>
-        <a href="#men">MEN</a>
-        <a href="#women">WOMEN</a>
-        <a href="#kids">KIDS</a>
-        <a href="#beauty">BEAUTY</a>
+    <div class="top-line">
+        <p>THE STYLE YOU WANT, THE PRICES YOU LOVE!</p>
+        <p>FREE SHIPPING ON ORDERS ABOVE ₹999</p>
     </div>
 
-    <!-- Welcome Section -->
-    <div id="home" class="welcome">
-        <h2>Welcome to Myntra</h2>
-        <p>Discover your favourite styles at amazing prices.</p>
-    </div>
-
-    <!-- Sale Banner -->
-    <div class="sale">
-        <h2>BIG FASHION SALE</h2>
-        <p>FLAT 50% - 80% OFF</p>
-        <p>Explore the latest fashion trends!</p>
-    </div>
-
-    <!-- Shopping Categories -->
-    <h2 class="section-title">SHOP BY CATEGORY</h2>
-
-    <div class="category">
-        <div id="men" class="category-box">
-            <h3>Men's Fashion</h3>
-            <p>Shirts, Jeans and T-Shirts</p>
-            <a href="#products">Explore Now</a>
+    <header>
+        <div class="brand">
+            <h1>MYNTRA<span>.</span></h1>
         </div>
 
-        <div id="women" class="category-box">
-            <h3>Women's Fashion</h3>
-            <p>Dresses, Kurtis and Handbags</p>
-            <a href="#products">Explore Now</a>
+        <nav>
+            <a href="#">New In</a>
+            <a href="#">Men</a>
+            <a href="#">Women</a>
+            <a href="#">Kids</a>
+            <a href="#">Beauty</a>
+            <a href="#">Lifestyle</a>
+        </nav>
+
+        <div class="user-menu">
+            <a href="#">Search</a>
+            <a href="#">♡</a>
+            <a href="#">Bag (0)</a>
+        </div>
+    </header>
+
+
+    <main>
+
+        <section class="welcome">
+            <div class="welcome-text">
+                <p class="small-heading">YOUR STYLE. YOUR STORY.</p>
+
+                <h2>
+                    DRESS LIKE
+                    <br>
+                    YOU MEAN IT.
+                </h2>
+
+                <p class="description">
+                    Discover the latest fashion trends, explore
+                    new collections and find your own style.
+                </p>
+
+                <a href="#collection" class="shop-btn">EXPLORE COLLECTION →</a>
+            </div>
+
+            <div class="welcome-image">
+                <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=900"
+                alt="Fashion model">
+                <div class="image-note">
+                    <h3>NEW SEASON</h3>
+                    <p>Fresh looks are here</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="fashion-message">
+            <p>FASHION IS NOT ABOUT LABELS.</p>
+            <h2>IT'S ABOUT YOUR PERSONALITY.</h2>
+        </section>
+
+
+        <section class="collection" id="collection">
+
+            <div class="section-title">
+                <div>
+                    <p>EXPLORE YOUR STYLE</p>
+                    <h2>THE COLLECTION</h2>
+                </div>
+                <span>01 — 04</span>
+            </div>
+
+            <div class="collection-grid">
+
+                <div class="fashion-card card-one">
+                    <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=700"
+                    alt="Women's fashion">
+                    <div class="card-info">
+                        <h3>Women's Edit</h3>
+                        <p>Styles made to stand out.</p>
+                    </div>
+                </div>
+
+                <div class="fashion-card card-two">
+                    <img src="https://images.unsplash.com/photo-1516257984-b1b4d707412e?w=700"
+                    alt="Men's fashion">
+                    <div class="card-info">
+                        <h3>Men's Edit</h3>
+                        <p>Everyday looks, upgraded.</p>
+                    </div>
+                </div>
+
+                <div class="fashion-card card-three">
+                    <img src="https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=700"
+                    alt="Kids fashion">
+                    <div class="card-info">
+                        <h3>Little Trends</h3>
+                        <p>Big style for little ones.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="trending">
+
+            <div class="trend-heading">
+                <p>WHAT'S EVERYONE WEARING?</p>
+                <h2>THE TREND REPORT</h2>
+            </div>
+
+            <div class="trend-products">
+
+                <div class="item">
+                    <div class="item-image">
+                        <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500"
+                        alt="Casual shirt">
+                        <span>BESTSELLER</span>
+                    </div>
+                    <h3>Everyday Essentials</h3>
+                    <p>Classic Cotton T-shirt</p>
+                    <h4>₹599 <del>₹999</del></h4>
+                </div>
+
+                <div class="item">
+                    <div class="item-image">
+                        <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=500"
+                        alt="Jeans">
+                        <span>NEW ARRIVAL</span>
+                    </div>
+                    <h3>Denim Stories</h3>
+                    <p>Comfort Fit Denim</p>
+                    <h4>₹899 <del>₹1499</del></h4>
+                </div>
+
+                <div class="item">
+                    <div class="item-image">
+                        <img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=500"
+                        alt="Footwear">
+                        <span>POPULAR</span>
+                    </div>
+                    <h3>Walk Your Way</h3>
+                    <p>Modern Casual Footwear</p>
+                    <h4>₹1299 <del>₹1999</del></h4>
+                </div>
+
+                <div class="item">
+                    <div class="item-image">
+                        <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500"
+                        alt="Handbag">
+                        <span>LIMITED EDITION</span>
+                    </div>
+                    <h3>Carry Your Style</h3>
+                    <p>Everyday Fashion Bag</p>
+                    <h4>₹999 <del>₹1599</del></h4>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="offer-section">
+
+            <div class="offer-image">
+                <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=900"
+                alt="Fashion shopping">
+            </div>
+
+            <div class="offer-text">
+                <p>THE WAIT IS OVER</p>
+                <h2>STYLE<br>SALE</h2>
+                <h3>UP TO 70% OFF</h3>
+                <p>Find your favourites before they're gone.</p>
+                <a href="#collection">EXPLORE NOW →</a>
+            </div>
+
+        </section>
+
+
+        <section class="brand-message">
+            <h2>MAKE EVERY OUTFIT COUNT.</h2>
+            <p>Good fashion. Great confidence. Your own rules.</p>
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="footer-main">
+
+            <div class="footer-brand">
+                <h2>MYNTRA<span>.</span></h2>
+                <p>Fashion is what you buy.<br>Style is what you do with it.</p>
+            </div>
+
+            <div>
+                <h3>SHOP</h3>
+                <p>Men</p>
+                <p>Women</p>
+                <p>Kids</p>
+                <p>Beauty</p>
+            </div>
+
+            <div>
+                <h3>HELP</h3>
+                <p>Contact Us</p>
+                <p>Shipping</p>
+                <p>Returns</p>
+                <p>FAQs</p>
+            </div>
+
+            <div>
+                <h3>FOLLOW US</h3>
+                <p>Instagram</p>
+                <p>Facebook</p>
+                <p>Twitter</p>
+                <p>Youtube</p>
+            </div>
+
         </div>
 
-        <div id="kids" class="category-box">
-            <h3>Kids' Collection</h3>
-            <p>Clothes and Accessories</p>
-            <a href="#products">Explore Now</a>
+        <div class="footer-bottom">
+            <p>© 2026 Myntra Fashion Edit | Student Project</p>
+            <p>Designed with HTML & CSS</p>
         </div>
 
-        <div id="beauty" class="category-box">
-            <h3>Beauty and Care</h3>
-            <p>Skincare and Beauty Products</p>
-            <a href="#products">Explore Now</a>
-        </div>
-    </div>
-
-    <!-- Products -->
-    <h2 id="products" class="section-title">TRENDING PRODUCTS</h2>
-
-    <div class="products">
-
-        <div class="product-box">
-            <div class="product-image">👕</div>
-            <h3>Casual T-Shirt</h3>
-            <p>₹499</p>
-            <button type="button">Add to Bag</button>
-        </div>
-
-        <div class="product-box">
-            <div class="product-image">👗</div>
-            <h3>Women's Dress</h3>
-            <p>₹899</p>
-            <button type="button">Add to Bag</button>
-        </div>
-
-        <div class="product-box">
-            <div class="product-image">👟</div>
-            <h3>Casual Sneakers</h3>
-            <p>₹1,299</p>
-            <button type="button">Add to Bag</button>
-        </div>
-
-        <div class="product-box">
-            <div class="product-image">👜</div>
-            <h3>Fashion Handbag</h3>
-            <p>₹799</p>
-            <button type="button">Add to Bag</button>
-        </div>
-
-    </div>
-
-    <!-- About Section -->
-    <div class="about">
-        <h2>About Myntra</h2>
-        <p>
-            Myntra clone is a student project inspired by online fashion
-            shopping websites. Explore fashion, lifestyle and beauty products
-            in one place.
-        </p>
-    </div>
-
-    <!-- Footer -->
-    <div class="footer">
-        <p>© 2026 Myntra | Myntra Clone Project</p>
-    </div>
+    </footer>
 
 </body>
-</html
+</html>
